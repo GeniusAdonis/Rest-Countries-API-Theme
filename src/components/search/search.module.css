@@ -19,9 +19,3 @@
 .input::placeholder {
   color: var(--light-mode-input);
 }
-
-/* @media (min-width: 900px) {
-  .input {
-    width: 40%;
-  }
-} */

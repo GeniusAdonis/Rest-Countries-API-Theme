@@ -6,7 +6,6 @@ import { DarkModeContext } from "../../context";
 function Header() {
   const context = useContext(DarkModeContext);
 
-  //---------------------------------------------------------------------------
   return (
     <header className={context?.darkMode ? styles.header : styles.lightTheme}>
       <Link to={"/"}>

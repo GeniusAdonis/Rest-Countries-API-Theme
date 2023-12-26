@@ -5,7 +5,6 @@ import { DarkModeProvider } from "./context";
 import Detail from "./detail/detail";
 
 function App() {
-  // ---------------------------------------------------------------------------
   return (
     <>
       <DarkModeProvider>
