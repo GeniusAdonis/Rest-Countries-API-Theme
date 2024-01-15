@@ -5,10 +5,7 @@ import { DetailType } from "../type";
 import { DarkModeContext } from "../context";
 
 function Detail() {
-  // ---------------------------------------------------------------------------
-  // variables
-  // ---------------------------------------------------------------------------
-
+  
   const { name } = useParams();
   const navigate = useNavigate();
   const context = useContext(DarkModeContext);
