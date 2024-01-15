@@ -6,9 +6,7 @@ import Search from "../components/search/search";
 import { DarkModeContext } from "../context";
 
 function Home() {
-  // ---------------------------------------------------------------------------
-  // variables
-  // ---------------------------------------------------------------------------
+
   const context = useContext(DarkModeContext);
   const [keyword, setKeyword] = useState("");
   const [selectedRegion, setSelectedRegion] = useState<string>("");
